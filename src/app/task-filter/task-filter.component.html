@@ -1,0 +1,6 @@
+<div class="task-filter">
+    <button (click)="setFilter('all')" [class.active]="currentFilter === 'all'">Todas</button>
+    <button (click)="setFilter('completed')" [class.active]="currentFilter === 'completed'">Completadas</button>
+    <button (click)="setFilter('incomplete')" [class.active]="currentFilter === 'incomplete'">No completadas</button>
+  </div>
+  
